@@ -1,0 +1,23 @@
+import random
+print ('''
+       #+---------------------+#
+       #                       #
+       #
+         oooO
+        (    )
+         \  (        0ooo
+          \__)      (    )
+                     )  /
+                    (__/
+
+
+       #                       #
+       #+---------------------+#
+''')
+
+while True:
+       p = int(input('Enter:~# '))
+       s = 'qwertasfjfkldlls1@34455^&**(#!~":;|\?/=+-_'
+       k = ''.join(random.sample(s,p))
+       print (k)
+
